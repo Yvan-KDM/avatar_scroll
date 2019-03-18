@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Simple website with scroll animation, using scrollreveal library",
   "main": "index.js",
+  "homepage": "https://yvan-KDM.github.io/avatar_scroll",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Yvan KDM",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
